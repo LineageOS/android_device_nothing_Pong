@@ -3,12 +3,20 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+filegroup {
+    name: "rildb_config_sql_files",
+    srcs: [
+        "config/0015.1_config.sql",
+    ],
+}
+
 genrule {
     name: "qcril_config_database",
     enabled: true,
     srcs: [
         "//vendor/nothing/Pong:proprietary_rildb_config_sql_files",
         "//vendor/nothing/Pong:proprietary_rildb_other_sql_files",
+        ":rildb_config_sql_files",
     ],
     tools: [
         "generate_qcril_db",
@@ -22,5 +30,8 @@ prebuilt_etc {
     filename: "qcrilNr.db",
     src: ":qcril_config_database",
     relative_install_path: "qcril_database",
+    required: [
+        "0015.1_config.sql",
+    ],
     vendor: true,
 }
