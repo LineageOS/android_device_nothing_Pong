@@ -16,6 +16,23 @@
       "message": "I58d3cb151ce3683643c6094758bee0a66bfa8cd5",
       "revId": "56527a7d59a22ac9925e99b086dd24e89b158f54",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7b3705e_21b8e099",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-07-08T09:48:39Z",
+      "side": 1,
+      "message": "No need to keep both, just keep the one that has been -1-ed.",
+      "revId": "56527a7d59a22ac9925e99b086dd24e89b158f54",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
