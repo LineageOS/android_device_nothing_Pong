@@ -40,7 +40,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.primary.taro \
     audio.usbv2.default \
     audioadsprpcd \
     libagm_compress_plugin \
