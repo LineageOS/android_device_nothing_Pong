@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d53fc3f8_4d78261b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-17T07:36:08Z",
+      "side": 1,
+      "message": "change it here too",
+      "range": {
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 17
+      },
+      "revId": "9bee9843e4bd5591fc5dddfb1c876ea9c226c5ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
