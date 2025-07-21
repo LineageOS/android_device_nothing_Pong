@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4f4f27a_6db06842",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-21T15:41:54Z",
+      "side": 1,
+      "message": "Merge into 22.2 and fast-forward to 23.0",
+      "revId": "4876a9dbe68641281470b07fb1e88e9be10742f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
