@@ -16,6 +16,24 @@
       "message": "Is this an issue only in 23.0?",
       "revId": "86976cab131cb438b2580c908935c6c73782b72f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b97dd23f_fc1e1ab4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-22T08:49:29Z",
+      "side": 1,
+      "message": "No, it is there in 22.2.",
+      "parentUuid": "ebcd25ae_83482049",
+      "revId": "86976cab131cb438b2580c908935c6c73782b72f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
