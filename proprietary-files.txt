@@ -1275,6 +1275,12 @@ vendor/etc/libnfc-nxp.conf
 # NFC firmware
 vendor/lib64/libpn560_fw.so
 
+# Nothing charge
+vendor/bin/hw/vendor.noth.hardware.charge-service
+vendor/etc/init/vendor.noth.hardware.charge-service.rc
+vendor/etc/vintf/manifest/vendor.noth.hardware.charge-service.xm
+vendor/lib64/vendor.noth.hardware.charge-V1-ndk_platform.so
+
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
@@ -1613,6 +1619,12 @@ vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 
+# Sltntc
+system_ext/bin/sltntc
+system_ext/etc/init/sltntc.rc
+system_ext/etc/sltntc/sltntc.conf
+system_ext/etc/sltntc/sltntc_SM8475.conf
+
 # SMC Invoke
 vendor/etc/ssg/ta_config.json
 vendor/lib64/libminkdescriptor.so
@@ -1719,8 +1731,17 @@ vendor/etc/init/vendor.qti.tftp.rc
 
 # Thermal engine
 vendor/bin/thermal-engine-v2
+vendor/etc/advance_thermal_mitigation/atmc.json
+vendor/etc/advance_thermal_mitigation/atmc_ind.json
+vendor/etc/advance_thermal_mitigation/nt_boost_adjuster.xml
 vendor/etc/init/init_thermal-engine-v2.rc
 vendor/etc/thermal-engine.conf
+vendor/etc/thermal.high.conf
+vendor/etc/thermal.low.conf
+vendor/etc/thermal.mid.conf
+vendor/etc/thermal.noth.camera.conf
+vendor/etc/thermal.super.conf
+vendor/etc/thermal.third.camera.conf
 vendor/lib64/liblmthermallistner.so
 vendor/lib64/libthermalclient.so
 
