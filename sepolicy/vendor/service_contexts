@@ -1,0 +1,2 @@
+# Charger
+vendor.noth.hardware.charge.ICharge/default        u:object_r:hal_nt_charge_aidl_service:s0
