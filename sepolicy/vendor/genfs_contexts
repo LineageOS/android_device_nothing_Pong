@@ -1,5 +1,8 @@
 # Charger
+genfscon proc /charger                                  u:object_r:vendor_proc_charger:s0
+genfscon proc /TP_charger_flags                         u:object_r:vendor_proc_charger:s0
 genfscon sysfs /class/qcom-battery/scenario_fcc         u:object_r:vendor_sysfs_usb_supply:s0
+genfscon sysfs /class/qcom-battery/usb_real_type        u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /class/qcom-battery/wireless_boost_en    u:object_r:vendor_sysfs_wireless:s0
 genfscon sysfs /class/qcom-battery/wls_reverse_status   u:object_r:vendor_sysfs_wireless:s0
 
