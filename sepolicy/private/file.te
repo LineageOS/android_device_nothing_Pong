@@ -1,0 +1,2 @@
+# Simulated temp
+type proc_simulated_temp, fs_type, proc_type;
