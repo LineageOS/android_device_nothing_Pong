@@ -1,0 +1,3 @@
+allow init sltntc_exec:file { read getattr map execute open };
+
+allow init sltntc:process transition;
