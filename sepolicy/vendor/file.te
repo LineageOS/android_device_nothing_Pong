@@ -1,3 +1,6 @@
+# Charger
+type vendor_proc_charger, fs_type, proc_type;
+
 # Fingerprint
 type vendor_persist_goodix_file, file_type;
 
