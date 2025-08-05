@@ -1,0 +1,19 @@
+type hal_nt_charge_aidl, domain;
+binder_use(hal_nt_charge_aidl)
+
+type hal_nt_charge_aidl_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_nt_charge_aidl)
+
+binder_call(vendor_hal_nt_charge_client, vendor_hal_nt_charge_server)
+
+hal_server_domain(hal_nt_charge_aidl, vendor_hal_nt_charge)
+
+hal_attribute_service(vendor_hal_nt_charge, hal_nt_charge_aidl_service)
+
+allow hal_nt_charge_aidl kmsg_device:chr_file rw_file_perms;
+
+rw_dir_file(hal_nt_charge_aidl, sysfs_thermal)
+rw_dir_file(hal_nt_charge_aidl, vendor_sysfs_battery_supply)
+rw_dir_file(hal_nt_charge_aidl, vendor_sysfs_usb_supply)
+rw_dir_file(hal_nt_charge_aidl, vendor_sysfs_wireless)
+rw_dir_file(hal_nt_charge_aidl, vendor_proc_charger)
