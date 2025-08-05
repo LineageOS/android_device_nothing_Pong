@@ -1,0 +1,18 @@
+#
+# Copyright (C) 2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on property:ro.boot.hardware.sku="CAPE"
+    setprop ro.boot.hardware.revision "CAPE"
+
+on property:ro.boot.hardware.sku="EEA"
+    setprop ro.boot.hardware.revision "EEA"
+
+on property:ro.boot.hardware.sku="IND"
+    setprop ro.boot.hardware.revision "IND"
+
+on property:ro.boot.hardware.sku="ROW"
+    setprop ro.boot.hardware.revision "ROW"
+
