@@ -16,6 +16,24 @@
       "message": "What is CAPE meaning, btw?",
       "revId": "8375f67d36d54e69506c3e588c0bac5604d49f3a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "838e3140_8d17ba2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-08-06T02:01:52Z",
+      "side": 1,
+      "message": "CAPE is a platform SKU",
+      "parentUuid": "3061a17e_e21f9464",
+      "revId": "8375f67d36d54e69506c3e588c0bac5604d49f3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
