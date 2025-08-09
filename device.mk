@@ -419,10 +419,9 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VINTF
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(LOCAL_PATH)/device_framework_matrix.xml \
-    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/nothing/Pong/device_framework_matrix.xml \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE += device/nothing/Pong/framework_manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest_cape.xml
