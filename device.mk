@@ -210,7 +210,7 @@ PRODUCT_COPY_FILES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.nt.pong
+    vendor.lineage.livedisplay-service.nt.pong
 
 # Lineage Health
 PRODUCT_PACKAGES += \
