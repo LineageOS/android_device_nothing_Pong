@@ -1,0 +1,40 @@
+//
+// SPDX-FileCopyrightText: 2019-2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+filegroup {
+    name: "vendor.lineage.livedisplay-nt-pong-se",
+    srcs: ["SunlightEnhancement.cpp"],
+}
+
+cc_library_headers {
+    name: "vendor.lineage.livedisplay-nt-pong-headers",
+    vendor_available: true,
+    export_include_dirs: ["include"],
+}
+
+cc_binary {
+    name: "vendor.lineage.livedisplay-service.nt.pong",
+    init_rc: ["vendor.lineage.livedisplay-service.nt.pong.rc"],
+    vintf_fragments: ["vendor.lineage.livedisplay-service.nt.pong.xml"],
+    relative_install_path: "hw",
+    srcs: [
+        ":vendor.lineage.livedisplay-sdm-pa",
+        ":vendor.lineage.livedisplay-sdm-utils",
+        ":vendor.lineage.livedisplay-nt-pong-se",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "libbinder",
+        "libutils",
+        "vendor.lineage.livedisplay-V1-ndk",
+    ],
+    header_libs: [
+        "vendor.lineage.livedisplay-sdm-headers",
+        "vendor.lineage.livedisplay-nt-pong-headers",
+    ],
+    proprietary: true,
+}

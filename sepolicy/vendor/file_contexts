@@ -10,7 +10,7 @@
 /sys/devices/platform/soc/994000.i2c/i2c-0/0-003a/leds/led_strips(/.*)?      u:object_r:sysfs_leds:s0
 
 # LiveDisplay
-/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.nt\.pong    u:object_r:hal_lineage_livedisplay_qti_exec:s0
+/vendor/bin/hw/vendor\.lineage\.livedisplay-service\.nt\.pong    u:object_r:hal_lineage_livedisplay_qti_exec:s0
 
 # NFC
 /dev/pn553     u:object_r:nfc_device:s0

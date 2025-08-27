@@ -1,7 +1,7 @@
 on boot
     chown system system /sys/panel_feature/hbm_mode
 
-service vendor.livedisplay-hal-2-1 /vendor/bin/hw/vendor.lineage.livedisplay@2.1-service.nt.pong
+service vendor.livedisplay-hal /vendor/bin/hw/vendor.lineage.livedisplay-service.nt.pong
     class late_start
     user system
     group system
