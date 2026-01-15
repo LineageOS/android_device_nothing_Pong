@@ -1,1 +1,2 @@
+vendor_hal_attribute(nt_camera)
 vendor_hal_attribute(nt_charge)

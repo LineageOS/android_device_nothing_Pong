@@ -10,6 +10,7 @@ audio.sys.mute.latency.factor=2
 audio.sys.noisy.broadcast.delay=500
 audio.sys.offload.pstimeout.secs=3
 audio.sys.routing.latency=0
+audio.timecheck.timeout_duration_ms=8000
 ro.af.client_heap_size_kbyte=7168
 ro.audio.monitorRotation=true
 

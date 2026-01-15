@@ -1,0 +1,16 @@
+type hal_nt_camera_aidl, domain;
+binder_use(hal_nt_camera_aidl)
+
+add_service(hal_nt_camera_aidl, hal_nt_camera_aidl_service)
+
+allow hal_nt_camera_aidl fwk_stats_service:service_manager find;
+binder_call(hal_nt_camera_aidl, system_server)
+
+hal_server_domain(hal_nt_camera_aidl, vendor_hal_nt_camera)
+
+type hal_nt_camera_aidl_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_nt_camera_aidl)
+
+binder_call(vendor_hal_nt_camera_client, vendor_hal_nt_camera_server)
+
+hal_attribute_service(vendor_hal_nt_camera, hal_nt_camera_aidl_service)

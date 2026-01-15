@@ -59,12 +59,12 @@ persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
 # Nothing feature
-ro.build.nothing.feature.base=0x1004458438124a040126b4247b97ffL
-ro.build.nothing.feature.diff.device.Pong=0x440002001aa4144ac04803d1842000L
+ro.build.nothing.feature.base=0x800001004458438124a040106b4247b97ffL
+ro.build.nothing.feature.diff.device.Pong=0x3044002001aa4144ac04803d1842000L
 
 # Radio
 ril.subscription.types=NV,RUIM
-ro.telephony.default_network=33,33
+ro.telephony.default_network=26,26
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
 

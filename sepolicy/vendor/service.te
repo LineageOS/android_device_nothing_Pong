@@ -1,2 +1,5 @@
+# Camera
+type hal_nt_camera_aidl_service, hal_service_type, service_manager_type;
+
 # Charger
 type hal_nt_charge_aidl_service, hal_service_type, service_manager_type;
