@@ -4,5 +4,8 @@ type vendor_proc_charger, fs_type, proc_type;
 # Fingerprint
 type vendor_persist_goodix_file, file_type;
 
+# Powerstats
+type sysfs_soc_sleep, fs_type, sysfs_type;
+
 # Wireless
 type vendor_sysfs_wireless, fs_type, sysfs_type;

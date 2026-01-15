@@ -81,7 +81,7 @@
 
     <!-- Whether to use the explicit vendor HAL API: IWifiStaIface.setRoamingState for disabling fw roaming (only needed if
          setting the bssid on the connection alone does not disable fw roaming on this chip) -->
-    <bool name="config_wifiUseHalApiToDisableFwRoaming">true</bool>
+    <bool name="config_wifiUpdateCountryCodeFromScanResultGeneric">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset supports background scanning mechanism.
          This mechanism allows the host to remain in suspend state and the dongle to actively
@@ -106,6 +106,16 @@
 
     <!-- Wifi driver supports WPA3 Simultaneous Authentication of Equals (WPA3-SAE) for softap -->
     <bool name="config_wifi_softap_sae_supported">true</bool>
+
+    <!-- List of constants that indicate the number of consecutive failures per type needed to block a BSSID.
+    A blocked BSSID will not be considered in network selection and firmware roaming.-->
+    <integer name="config_wifiBssidBlocklistMonitorApUnableToHandleNewStaThreshold">3</integer>
+
+    <!-- The default values chosen here establish four non-overlapping categories:
+             saved, unmetered
+             unsaved, unmetered
+         These values can be reduced to allow overlapping between categories. -->
+    <integer name="config_wifiFrameworkUnmeteredNetworkBonus">0</integer>
 
     <!-- integer indicating additional disconnect delay (in ms) after IMS onLost() indication is received -->
     <integer name="config_wifiDelayDisconnectOnImsLostMs">1000</integer>

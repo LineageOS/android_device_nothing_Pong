@@ -25,8 +25,8 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 15 AQ3A.240929.001 2509171451 release-keys" \
-    BuildFingerprint=Nothing/Pong/Pong:12/SKQ1.240903.001/2509171451:user/release-keys \
+    BuildDesc="qssi-user 16 BQ2A.250721.001-BP2A.250605.031.A3 2512261110 release-keys" \
+    BuildFingerprint=Nothing/Pong/Pong:12/SKQ1.250415.001/2512261110:user/release-keys \
     DeviceName=Pong \
     DeviceProduct=Pong \
     SystemDevice=Pong \
