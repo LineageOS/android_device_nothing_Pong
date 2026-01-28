@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-
-    <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
-    <bool name="config_wifi6ghzSupport">false</bool>
-
-    <!-- Whether to allow Settings or SUW to create insecure Enterprise networks where server
-         certificate is not validated, by not specifying a Root CA certificate and/or server domain
-         name. It is STRONGLY RECOMMENDED to be set to false -->
-    <bool name="config_wifiAllowInsecureEnterpriseConfigurationsForSettingsAndSUW">true</bool>
-
-    <!-- Enable WPA2 to WPA3 auto-upgrade offload to capable Driver/Firmware -->
-    <bool name="config_wifiSaeUpgradeOffloadEnabled">false</bool>
-
-    <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
-    <bool name="config_wifiSoftap6ghzSupported">false</bool>
-
-    <!-- Indicates that STA + bridged AP concurrency mode is supported on this device -->
+    <!-- Indicates that STA + bridged AP concurrency mode is supported on this device provided
+     that the device interface combination allows for it-->
     <bool translatable="false" name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
 
     <!-- Do not translate. Default access point SSID used for tethering -->
@@ -48,4 +34,8 @@
         <item>-65</item>
     </integer-array>
 
+    <!-- Whether to allow Settings or SUW to create insecure Enterprise networks where server
+         certificate is not validated, by not specifying a Root CA certificate and/or server domain
+         name. It is STRONGLY RECOMMENDED to be set to false -->
+    <bool name="config_wifiAllowInsecureEnterpriseConfigurationsForSettingsAndSUW">true</bool>
 </resources>
