@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024 The LineageOS Android
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-
+    <!-- List of SKUs where Secure NFC functionality is supported -->
     <string-array name="config_skuSupportsSecureNfc">
         <item>ROW</item>
         <item>EEA</item>
         <item>IND</item>
     </string-array>
 
+    <!-- Set true if Secure NFC functionality supported for all SKUs -->
     <bool name="enable_secure_nfc_support">true</bool>
-
 </resources>
