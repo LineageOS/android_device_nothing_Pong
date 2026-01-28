@@ -4,6 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple" translatable="false">Nothing Phone (2)</string>
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#ffffe6</color>
 </resources>
